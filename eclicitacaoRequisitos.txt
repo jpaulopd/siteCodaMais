@@ -1,0 +1,22 @@
+Elementos layout
+1) Diagramação
+2) Qualidade fotos
+3) Personalidade
+4) Legilibilidade
+5) Navegabilidade
+
+portifolio
+mostrar redes sociais
+contatos
+https://engnetconsultoria.com.br/
+http://www.struct.unb.br/
+https://www.cjr.org.br/
+
+visual tecnologico 
+encontre tudo na primeira pagina
+sistema de simulacao orçamento: estatico, dinamico
+    nisso terao os componentes já precificado
+    questione sobre cliente ter ou nao identidade visual
+    apresente previsao prazo
+    possa incluir mais detalhes do pedido
+
