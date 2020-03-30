@@ -4,8 +4,8 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 
- .ParallaxVideo{ 
-  height: 300px;
+.ParallaxVideo{ 
+  height: 350px;
   padding-bottom: 50px;
   padding-top: 50px; 
 }
@@ -13,7 +13,7 @@
   min-width: 100%;
   position: fixed;
   top:0;
-  z-index: -999;
+  z-index: -100;
 }
 .ParallaxVideo h1 {
 color: #fff;
@@ -21,6 +21,10 @@ font-size: 76px;
 font-weight: 700;
 text-align: center;
 text-transform: uppercase;
+}
+
+.parallax-container {
+  height: 350px;
 }
 
 .materialize-red {

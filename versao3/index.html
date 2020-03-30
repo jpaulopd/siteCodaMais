@@ -9,7 +9,7 @@
    <meta name="description"
       content="Homepage da Codamais, empresa junior do IFB. Sua solução em desenvolvimento de páginas para">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link href="materialize/css/materialize.css" rel="stylesheet">
+   <link href="css/materialize.css" rel="stylesheet">
    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
    <link rel="icon" type="image/png" sizes="32x32" href="images/favico/favicon-32x32.png">
 </head>  
@@ -40,23 +40,41 @@
       </ul>
     -->
     <header id="home">
+        <div class="container-fluid ">
+<!--                <div class="ParallaxVideo">
+                    <video class="responsive-video" autoplay="" muted="" loop="">
+                        <source src="video/particleCircleColor.mp4" type="video/mp4">
+                    </video>
+                    <h1 class="center light-blue-text"><i class="material-icons">CODAMAIS</i></h1>
+                    <h2 class="flow-text center blue-grey-text">Empresa de desenvolvimento de soluções para Internet.</h2>     
+                    <div class="row center">
+                        <a class="waves-effect waves-light btn-large">Faça seu orçamento</a>
+                    </div>
+                </div> -->
+                
+            <div class="parallax-container">
+                <div class="parallax"><img src="//placehold.it/1260x800/3333cc&amp;text=scrollme"></div>
 
-        <div class="ParallaxVideo">
-            <video autoplay muted loop>
-                <source src="video/particleCircleColor.mp4" type="video/mp4">
-            </video>
+                <div class="parallax"><img src="images/banner.png"></div>
+                <h1 class="center light-blue-text"><i class="material-icons">CODAMAIS</i></h1>
+                <h2 class="flow-text center blue-grey-text">Empresa de desenvolvimento de soluções para Internet.</h2>     
+                <div class="row center">
+                    <a class="waves-effect waves-light btn-large">Faça seu orçamento</a>
+                </div>
+            </div>
+   
         </div>
-        <h1 class="center light-blue-text"><i class="material-icons">CODAMAIS</i></h1>
-        <h2 class="flow-text center blue-grey-text">Empresa de desenvolvimento de soluções para Internet.</h2>     
-        <div class="row center">
-            <a class="waves-effect waves-light btn-large">Faça seu orçamento</a>
-        </div>
-
     </header>
 
-    <article id="servicos">
-        <div class="container">
+    <!-- <div class="divider"></div> -->
 
+    <article class="section" id="servicos">
+        <div class="container-fluid ">
+            <div class="row card-panel teal lighten-2">
+               <div class="center col s12"> <h2 class="flow-text center blue-grey-text">Nosso serviços</h2></div>
+               <div class="col s1 m6 l6">Sites dinâmicos</div>
+               <div class="col s1 m6 l6">Sites estáticos</div>
+            </div>
         </div>
 
     </article>
@@ -77,10 +95,19 @@
         
     </footer>
 
-    <script>document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.sidenav');
-        var instances = M.Sidenav.init(elems, options);
-      });
+    <script>
+        // efeito navbar
+        document.addEventListener('DOMContentLoaded', function() 
+        {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, options);
+        });
+        
+        // efeito parallax no banner        
+        $(document).ready(function()
+        {
+            $('.parallax').parallax();
+        });
     </script>
     
 </body>
