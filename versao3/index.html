@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <title>codamais - Home</title>
+   <meta name="author" content="João Paulo Dantas, Douglas Felipe e Lucas Hipolito">
+   <meta name="keywords" content="desenvolvimento, web, paginas, site" />
+   <meta name="description"
+      content="Homepage da Codamais, empresa junior do IFB. Sua solução em desenvolvimento de páginas para">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="css/materialize.css" rel="stylesheet">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <link rel="icon" type="image/png" sizes="32x32" href="images/favico/favicon-32x32.png">
+</head>  
+
+<div>
+<body>
+
+    <nav>
+        <div class="nav-wrapper #3f51b5 indigo">
+            <a href="#!" class="brand-logo">CODAMAIS</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#home">Início</a></li>
+              <li><a href="#servicos">Serviços</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#parceiros">Parceiros</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+    </nav>
+<!--
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#parceiros">Parceiros</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    -->
+    <header id="home">
+        <div class="container-fluid ">
+<!--                <div class="ParallaxVideo">
+                    <video class="responsive-video" autoplay="" muted="" loop="">
+                        <source src="video/particleCircleColor.mp4" type="video/mp4">
+                    </video>
+                    <h1 class="center light-blue-text"><i class="material-icons">CODAMAIS</i></h1>
+                    <h2 class="flow-text center blue-grey-text">Empresa de desenvolvimento de soluções para Internet.</h2>     
+                    <div class="row center">
+                        <a class="waves-effect waves-light btn-large">Faça seu orçamento</a>
+                    </div>
+                </div> -->
+                
+            <div class="parallax-container">
+                <div class="parallax"><img src="//placehold.it/1260x800/3333cc&amp;text=scrollme"></div>
+
+                <div class="parallax"><img src="images/banner.png"></div>
+                <h1 class="center light-blue-text"><i class="material-icons">CODAMAIS</i></h1>
+                <h2 class="flow-text center blue-grey-text">Empresa de desenvolvimento de soluções para Internet.</h2>     
+                <div class="row center">
+                    <a class="waves-effect waves-light btn-large">Faça seu orçamento</a>
+                </div>
+            </div>
+   
+        </div>
+    </header>
+
+    <!-- <div class="divider"></div> -->
+
+    <article class="section blue lighten-5" id="servicos">
+        <div class="container-fluid ">
+
+            <div class="row">
+
+                <h1 class="flow-text center black-text">Nosso serviços</h1>
+
+                <div class="col s12 m6 l6 center">
+                    <div class="card container center">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/servicos1.png">
+                        </div>
+                        <div class="card-reveal center">
+                            <span class="card-title grey-text text-darken-4">Sites Estáticos<i class="material-icons right">close</i></span>
+                            <p>Do layout ao desenvolvimento de páginas dinâmicas e estáticas, sua empresa com
+                            ótima apresentação na Internet.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m6 l6">
+                    <div class="card container center">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator responsive-img" src="images/servicos2.png">
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Sites Dinâmicos<i class="material-icons right">close</i></span>
+                            <p>Sua negócio deseja oferecer mais soluções aos seus clientes? Automatizar
+                            tarefas? Centralizar gestão? Sistemas para internet é a solução!</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </article>
+
+    <section id="sobre">
+
+    </section>
+
+    <section id="parceiros">
+
+    </section>
+
+    <section id="contato">
+
+    </section>
+
+    <footer>
+        
+    </footer>
+
+    <script>
+        // efeito navbar
+        document.addEventListener('DOMContentLoaded', function() 
+        {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, options);
+        });
+        
+        // efeito parallax no banner        
+        $(document).ready(function()
+        {
+            $('.parallax').parallax();
+        });
+    </script>
+    
+</body>
