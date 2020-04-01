@@ -2,25 +2,18 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>codamais - Home</title>
-    <meta name="author" content="João Paulo Dantas, Douglas Felipe e Lucas Hipolito">
-    <meta name="keywords" content="desenvolvimento, web, paginas, site" />
-    <meta name="description"
-        content="Homepage da Codamais, empresa junior do IFB. Sua solução em desenvolvimento de páginas para">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./css/materialize.css" rel="stylesheet">
-    <link href="./js/materialize.js" rel="jquery">
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favico/favicon-32x32.png">
-    <!-- js do ajax -->
-	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-	<!-- js do header que some -->
-    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="./js/render.js"></script>
-    <link href="./js/render.js" rel="text/javascript">
-    <script src="./js/ajax.js"> </script>
+   <meta charset="utf-8">
+   <title>codamais - Home</title>
+   <meta name="author" content="João Paulo Dantas, Douglas Felipe e Lucas Hipolito">
+   <meta name="keywords" content="desenvolvimento, web, paginas, site" />
+   <meta name="description"
+      content="Homepage da Codamais, empresa junior do IFB. Sua solução em desenvolvimento de páginas para">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="css/materialize.css" rel="stylesheet">
+   <link href="js/materialize.js" rel="jquery">
+   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <link rel="icon" type="image/png" sizes="32x32" href="images/favico/favicon-32x32.png">
 </head>  
 
 <div>
@@ -29,19 +22,19 @@
         <nav class="light-blue indigo" role="navigation">
             <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">CODAMAIS</a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a class="home" href="#home">Início</a></li>
-                    <li><a class="servicos" href="#servicos">Serviços</a></li>
-                    <li><a class="sobre" href="#sobre">Sobre</a></li>
-                    <li><a class="parceiros" href="#parceiros">Parceiros</a></li>
-                    <li><a class="contato" href="#contato">Contato</a></li>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#parceiros">Parceiros</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
         
                 <ul id="nav-mobile" class="sidenav">
-                    <li><a class="home" href="#home">Início</a></li>
-                    <li><a class="servicos" href="#servicos">Serviços</a></li>
-                    <li><a class="sobre" href="#sobre">Sobre</a></li>
-                    <li><a class="parceiros" href="#parceiros">Parceiros</a></li>
-                    <li><a class="contato" href="#contato">Contato</a></li>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#parceiros">Parceiros</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
                 <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             </div>
@@ -69,10 +62,76 @@
         </div>
     </div>
 
-    <!-- <div class="divider"></div> -->
+                <!-- <div class="divider"></div> -->
+            
+    <article class="section blue lighten-5" id="servicos">
 
-	<!-- AS OUTRAS PAGINAS SÃO CARREGADAS AQUI DENTRO -->
-	<div id="box"></div>
+            <div class="row center">
+
+                <h2 class="center black-text">Nosso serviços</h1>
+
+                <div class="col center s12 m4 offset-m2 l4 offset-l2">
+                    <div class="card container">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/servicos1.png">
+                        </div>
+                        <div class="card-reveal center">
+                            <span class="card-title grey-text text-darken-4">Sites Estáticos<i class="material-icons right">close</i></span>
+                            <p class="flow-text">Do layout ao desenvolvimento de páginas dinâmicas e estáticas, sua empresa com
+                            ótima apresentação na Internet.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col center s12 m4 offset-m2 l4 offset-l1">
+                    <div class="card container ">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator responsive-img" src="images/servicos2.png">
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Sites Dinâmicos<i class="material-icons right">close</i></span>
+                            <p class="flow-text">Sua negócio deseja oferecer mais soluções aos seus clientes? Automatizar
+                            tarefas? Centralizar gestão? Sistemas para internet é a solução!</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+    </article>
+            
+    <div class="section blue lighten-3" id="sobre">
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <h2 class="center black-text">O que é a CODAMAIS?</h1>
+            </div>
+            <div class="col s12 m6 l6">
+                <p class="flow-text">Estudar e praticar é o que fazemos na CODAMAIS. <br>
+                    Somos estudantes do curso de Tecnologia em Sistemas para Internet do Instituto Federal de Brasília (IFB).
+                    Fundada em 2019, a codamais tem por objetivo desenvolver soluções em tecnologia para empresas e pessoas.</p>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="section blue lighten-2" id="parceiros">
+        <h2 class="center black-text">Parcerias</h1>
+
+    </div>
+
+    <div class="section blue lighten-5" id="contato">
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <h2 class="flow-text center black-text">Fale conosco nas nossas mídias sociais!</h1>
+            </div>
+            <div class="col s12 m6 l6">
+                <p class="flow-text">Estudar e praticar é o que fazemos na CODAMAIS. <br>
+                    Somos estudantes do curso de Tecnologia em Sistemas para Internet do Instituto Federal de Brasília (IFB).
+                    Fundada em 2019, a codamais tem por objetivo desenvolver soluções em tecnologia para empresas e pessoas.</p>
+            </div>
+        </div>
+    </div>
+        
 
     <footer class="page-footer light-blue indigo">
         <div class="footer-copyright center">
@@ -84,7 +143,7 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="./js/materialize.js"></script>
-    <script src="./js/init.js"></script>
-    <script src="./js/render.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+   
 </body>
