@@ -5,6 +5,19 @@
  *
  * Made By MaterializeCSS.com
  */
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500&display=swap&family=Prompt:wght@600&display=swap');
+
+ .divider {
+  height: 3px;
+ }
+h1{
+  font-family: Prompt !important;
+}
+
+h3{
+  font-family: Roboto;
+}
 
 .icon-block {
   padding: 0 15px;

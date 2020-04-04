@@ -19,7 +19,8 @@
 
 <div>
 <body>
-        <nav class="light-blue indigo" role="navigation">
+        <div class="navbar-fixed">
+          <nav class="indigo darken-4" role="navigation">
             <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">CODAMAIS</a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="#home">Início</a></li>
@@ -38,273 +39,169 @@
                 </ul>
                 <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             </div>
-        </nav>
-
-
-        <!-- <div class="ParallaxVideo show-on-large">
-            <video class="responsive-video" autoplay="" muted="" loop="">
-                <source src="video/particleCircleColor.mp4" type="video/mp4">
-            </video>
-            <h1 class="center light-blue-text"><i class="material-icons">CODAMAIS</i></h1>
-            <h2 class="flow-text center blue-grey-text">Empresa de desenvolvimento de soluções para Internet.</h2>     
-            <div class="row center">
-                <a class="waves-effect waves-light btn-large">Faça seu orçamento</a>
-            </div>
-        </div> -->
-                            
-    <div class="parallax-container" id="home">
-        <div class="parallax"><img src="images/banner.png"></div>
-        <br><br>
-        <h1 class="header center white-text">CODAMAIS</h1>
-        <h2 class="center white-text">Empresa de desenvolvimento de soluções para Internet.</h2>     
-        <div class="row center">
-            <a class="waves-effect waves-light btn-large">Faça seu orçamento</a>
+          </nav>
         </div>
-    </div>
+        
+        <div class="parallax-container center valign-wrapper" id="home">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 white-text">
+                <div class="row"><h1 >CODAMAIS</h1></div>
+                <div class="row"><h3>Desenvolvimento de soluções para Internet para sua empresa</h3></div>
+                <div class="row"><a class="waves-effect waves-light btn-large light-green accent-3  text-bold black-text">Faça o orçamento agora</a></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="parallax">
+            <img src="images/bannerCodaMais.png">
+          </div>
+        </div>
 
-    <div class="divider"></div>
+    <div class="divider indigo darken-4"></div>
             
-    <article class="section blue lighten-5" id="servicos">
+    <article class="section" id="servicos">
             <div class="row center">
 
-                <h2 class="center black-text">Nosso serviços</h2>
-
-                <div class="col center s12 m4 offset-m2 l4 offset-l2">
-                    <div class="card container hoverable">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="images/servicos1.png">
-                        </div>
-                        <div class="card-reveal center">
-                            <span class="card-title red-text text-darken-5 center-align">Sites Estáticos<i class="material-icons right">close</i></span>
-                            <p class="center-align">Do layout ao desenvolvimento de páginas dinâmicas e estáticas, sua empresa com
-                            ótima apresentação na Internet.</p>
-                        </div>
-                    </div>
+                <div class="row">
+                  <h2 class="center black-text">Nosso serviços</h2>
                 </div>
 
-                <div class="col center s12 m4 offset-m2 l4 offset-l1">
-                    <div class="card container hoverable">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator responsive-img" src="images/servicos2.png">
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title red-text text-darken-5 center-align">Sites Dinâmicos<i class="material-icons right">close</i></span>
-                            <p class="center-align">Sua negócio deseja oferecer mais soluções aos seus clientes? Automatizar
-                            tarefas? Centralizar gestão? Sistemas para internet é a solução!</p>
-                        </div>
+                <div class="row valign-wrapper">
+                  <div class="col s11 m l6">
+                    <div class="card-panel indigo lighten-1">
+                      <div class="row "><i class="large material-icons">laptop_windows</i></div>
+                      <div class="row "><h5 class="white-text">Páginas estáticas</h5></div>
+                      <div class="divider black"></div>
+                      <span class="white-text flow-text">Do design do layout ao desenvolvimento de páginas, sua empresa estará bem apresentada na Internet!
+                      </span>
                     </div>
-                </div>                
+                  </div>
+
+                  <div class="col s12 m6 l6">
+                    <div class="card-panel indigo lighten-1">
+                      <div class="row "><i class="large material-icons">business</i></div>
+                      <div class="row "><h5 class="white-text">Páginas dinâmicas</h5></div>
+                      <div class="divider black"></div>
+                      <span class="white-text flow-text">Sua negócio deseja oferecer mais soluções aos seus clientes? Automatizar
+                        tarefas? Páginas dinâmicas é a solução!
+                      </span>
+                    </div>
+                  </div>
+                </div>
             </div>
     </article>
 
-    <div class="divider"></div>
+    <div class="divider indigo darken-4"></div>
 
-    <section class="section white lighten-3" id="sobre">
-        <div class="row center">
-            <div class="col s12 m6 l3 offset-l1">
-                <div class="row valign-wrapper">
-                    <img src="images/logoCodaMais.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-                </div>
-            </div>
-            <div class="col s12 m5 offset-m1 l5 offset-l1">
-                <h2 class="center black-text">O que é a CODAMAIS?</h2>
-                <div class="row">
-                    <span class="black-text">
-                    <h5 class="center-align flow-text">
-                        Somos estudantes do curso de Tecnologia em Sistemas para Internet do Instituto Federal de Brasília (IFB).
-                        Fundada em 2019, a codamais tem por objetivo desenvolver soluções em tecnologia para empresas e pessoas.
-                        Estudar e praticar é o que fazemos na codamais+.
-                    </h5>
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="container">
-
-                <ul class="collapsible popout">
-                    <li>
-                      <div class="collapsible-header"><i class="material-icons">assignment_ind</i>Presidente Institucional</div>
-                      <div class="collapsible-body">
-                            <span>
-                                <div class="row">
-                                    <div class="col s12 m7">
-                                      <div class="card">
-                                        <div class="card-image">
-                                          <img src="images/membros/isabela.JPG">
-                                          <span class="card-title">Isabela</span>
-                                        </div>
-                                        <div class="card-content">
-                                          <p>Gestão dos Stackholders</p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </span>
-                        </div>
-                    </li>
-                    <li>
-                      <div class="collapsible-header"><i class="material-icons">assignment_ind</i>President Organizacional</div>
-                      <div class="collapsible-body">
-                          <span>
-                            <div class="row">
-                                <div class="col s12 m7">
-                                  <div class="card">
-                                    <div class="card-image">
-                                      <img src="images/membros/rodrigo.JPG">
-                                      <span class="card-title">Rodrigo</span>
-                                    </div>
-                                    <div class="card-content">
-                                      <p>Gerência a cultura organizacional</p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                          </span>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="collapsible-header"><i class="material-icons">assignment_ind</i>Diretor Administrativo Financeiro</div>
-                      <div class="collapsible-body">
-                        <span>
-                            <div class="row">
-                                <div class="col s12 m7">
-                                  <div class="card">
-                                    <div class="card-image">
-                                      <img src="images/membros/catselfie.JPG">
-                                      <span class="card-title">Mr Cat</span>
-                                    </div>
-                                    <div class="card-content">
-                                      <p>Fecha a conta e passa a régua.</p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                        </span>
-                      </div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">assignment_ind</i>Diretor Comercial</div>
-                        <div class="collapsible-body">
-                            <span>
-                                <div class="row">
-                                    <div class="col s12 m7">
-                                      <div class="card">
-                                        <div class="card-image">
-                                          <img src="images/membros/leo.JPG">
-                                          <span class="card-title">Leo</span>
-                                        </div>
-                                        <div class="card-content">
-                                          <p>Precificar projetos da CODAMAIS</p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </span>
-                        </div>
-                      </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">assignment_ind</i>Diretor de Gestão de Pessoas</div>
-                        <div class="collapsible-body">
-                            <span>
-                                <div class="row">
-                                    <div class="col s12 m7">
-                                      <div class="card">
-                                        <div class="card-image">
-                                          <img src="images/membros/hugo.JPG">
-                                          <span class="card-title">Hugo</span>
-                                        </div>
-                                        <div class="card-content">
-                                          <p>Cuidar da gente   <i class="large material-icons">tag_faces</i> </p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </span>
-                        </div>
-                    </li>  
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">assignment_ind</i>Diretor de Gestão de Projetos</div>
-                        <div class="collapsible-body">
-                            <span>
-                                <div class="row">
-                                    <div class="col s12 m7">
-                                      <div class="card">
-                                        <div class="card-image">
-                                          <img src="images/membros/felipe.JPG">
-                                          <span class="card-title">Felipe</span>
-                                        </div>
-                                        <div class="card-content">
-                                          <p>Fazer os códigos <i class="large material-icons">code</i> </p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </span>
-                        </div>
-                    </li>  
-                  </ul>
-            </div>
-        </div>
-    </section>
-
-    <div class="divider"></div>
-
-    <section class="section" id="parceiros">
-        <h2 class="center black-text">Parcerias</h2>
-          <div class="hide-on-small-only">
-              <div class="slider">
-                <ul class="slides">
-                  <li>
-                    <!-- <a href="https://www.ifb.edu.br/"><img src="images/parcaConcentro.png" ></a> -->
-                        <img src="images/parcaIfb.png" > 
-                  </li>
-                  <li>
-                    <!-- <a href="https://www.linkedin.com/company/concentro---federa-o-de-empresas-juniores-do-distrito-federal/?originalSubdomain=br"><img src="images/parcaConcentro.png" ></a> -->
-                    <img src="images/parcaConcentro.png" >
-                  </li>
-                </ul>
+    <section class="section" id="sobre">
+      <div class="row ">
+          <div class="col s12 m6 l3 offset-l1">
+              <div class="row ">
+                  <img src="images/logoCodaMais.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
               </div>
           </div>
+          <div class="col s12 m5 offset-m1 l5 offset-l1">
+              <h2 class="center black-text">O que é a CODAMAIS?</h2>
+              <div class="row">
+                  <span class="black-text">
+                  <h5 class="center-align ">
+                      Somos estudantes do curso de Tecnologia em Sistemas para Internet do Instituto Federal de Brasília (IFB).<br><br>
+                      Fundada em 2019, a CODAMAIS tem por objetivo desenvolver soluções em tecnologia para empresas e pessoas.<br><br>
+                      Estudar e praticar é o que fazemos na CODAMAIS.
+                  </h5>
+                  </span>
+              </div>
+          </div>
+      </div>
 
-          <div class="hide-on-med-and-up">
+
+      <div class="row ">
+        <div class="col s4 m2 l2 center">
+          <div class="card-panel indigo lighten-1">
+            <img src="images/membros/isabela.JPG" class="circle responsive-img">
+            <div class="row "><h5 class="white-text">Isabela</h5></div>
+            <div class="divider"></div>
+            <div class="row "><p class="white-text">Presidente Institucional</p></div>
+          </div>
+        </div>
+        <div class="col s4 m2 l2 center">
+          <div class="card-panel indigo lighten-1">
+            <img src="images/membros/rodrigo.JPG" class="circle responsive-img">
+            <div class="row "><h5 class="white-text">Rodrigo</h5></div>
+            <div class="divider"></div>
+            <div class="row "><p class="white-text">Presidente Institucional</p></div>
+          </div>
+        </div>
+        <div class="col s4 m2 l2 center">
+          <div class="card-panel indigo lighten-1">
+            <img src="images/membros/catselfie.jpg" class="circle responsive-img">
+            <div class="row "><h5 class="white-text">Mr Cat</h5></div>
+            <div class="divider"></div>
+            <div class="row "><p class="white-text">Diretor Adm. Financeiro</p></div>
+          </div>
+        </div>
+        <div class="col s4 m2 l2 center">
+          <div class="card-panel indigo lighten-1">
+            <img src="images/membros/leo.JPG" class="circle responsive-img">
+            <div class="row "><h5 class="white-text">Leo</h5></div>
+            <div class="divider"></div>
+            <div class="row "><p class=" white-text">Diretor Comercial</p></div>
+          </div>
+        </div>
+        <div class="col s4 m2 l2 center">
+          <div class="card-panel indigo lighten-1">
+            <img src="images/membros/hugo.JPG" class="circle responsive-img">
+            <div class="row "><h5 class="white-text">Hugo</h5></div>
+            <div class="divider"></div>
+            <div class="row "><p class="white-text">Diretor de Gestão de Pessoas</p></div>
+          </div>
+        </div>
+        <div class="col s4 m2 l2 center">
+          <div class="card-panel indigo lighten-1">
+            <img src="images/membros/felipe.JPG" class="circle responsive-img">
+            <div class="row "><h5 class="white-text">Felipe</h5></div>
+            <div class="divider"></div>
+            <div class="row "><p class="white-text">Diretor de Gestão de Projetos</p></div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+    <div class="divider indigo darken-4"></div>
+
+    <section class="section" id="parceiros">
+      <h2 class="black-text center-align">Nossos parceiros</h2>
+
+          <div class="container">
               <div class="carousel carousel-slider">
                 <a class="carousel-item" href="#one!"><img src="images/parcaIfb.png"></a>
                 <a class="carousel-item" href="#two!"><img src="images/parcaConcentro.png"></a>
               </div>
           </div>
-
     </section>
 
-    <div class="divider"></div>
+    <div class="divider indigo darken-4"></div>
 
-    <section class="section blue lighten-5" id="contato">
-      <div class="hide-on-med-and-down">
-        <div class="row">
-          <div class="col s6 m6 l6">
-              <h2 class="right-align black-text">Fale conosco também em nossas mídias sociais!</h2>
+    <section class="section" id="contato">
+      <div class="hide-on-med-and-down ">
+        <div class="row valign-wrapper">
+          <div class="col m5 offset-m1 l5 offset-l1">
+            <h2 class="black-text">Fale conosco também em nossas mídias sociais!</h2>
+            <a class="waves-effect waves-light social-icon btn-large facebook"><i class="fa fa-facebook"></i></a>
+            <a class="waves-effect waves-light social-icon btn-large linkedin"><i class="fa fa-linkedin"></i></a>
+            <a class="waves-effect waves-light social-icon btn-large instagram"><i class="fa fa-instagram"></i></a>
+            <a class="waves-effect waves-light social-icon btn-large google"><i class="fa fa-google"></i></a>
           </div>
-          <br>
-          <div class="container col s6 m5 offset-m1 l5 offset-l1">
-              <div class="row">
-                  <div class="center col s12 m2 l2">
-                      <a class="waves-effect waves-light social-icon btn-large facebook"><i class="fa fa-facebook"></i></a>
-                  </div>
-                  <div class="center col s12  m2 l2">
-                      <a class="waves-effect waves-light social-icon btn-large linkedin"><i class="fa fa-linkedin"></i></a>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="center col s12 m2 l2">
-                      <a class="waves-effect waves-light social-icon btn-large instagram"><i class="fa fa-instagram"></i></a>
-                  </div>
-                  <div class="center col s12 m2 l2">
-                      <a class="waves-effect waves-light social-icon btn-large google"><i class="fa fa-google"></i></a>
-                  </div>
-              </div>  
+          <div class="col m6 l6 ">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15359.790569197998!2d-47.8793589!3d-15.7539088!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3060d8a3139ab079!2sInstituto%20Federal%20de%20Bras%C3%ADlia!5e0!3m2!1spt-BR!2sbr!4v1575286386076!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
           </div>
-        </div>
       </div>
+      </div>
+
+
 
       <div class="hide-on-large-only">
         <h2 class="center-align black-text">Fale conosco também em nossas mídias sociais!</h2>
@@ -314,12 +211,15 @@
           <a class="waves-effect waves-light social-icon btn-large instagram"><i class="fa fa-instagram"></i></a>
           <a class="waves-effect waves-light social-icon btn-large google"><i class="fa fa-google"></i></a>
         </div>
+        <div class=" container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15359.790569197998!2d-47.8793589!3d-15.7539088!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3060d8a3139ab079!2sInstituto%20Federal%20de%20Bras%C3%ADlia!5e0!3m2!1spt-BR!2sbr!4v1575286386076!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
       </div>
     </section>
 
-    <div class="divider"></div>
+    <div class="divider indigo darken-4"></div>
        
-    <footer class="page-footer light-blue indigo">
+    <footer class="page-footer indigo darken-4">
         <div class="footer-copyright center">
             <div class="container">
             <h5> Desenvolvido por Codamais © 2020 </h5>

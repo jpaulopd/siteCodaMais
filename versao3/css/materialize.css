@@ -3,27 +3,7 @@
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500&display=swap');
  
-.ParallaxVideo{ 
-  height: 350px;
-  padding-bottom: 50px;
-  padding-top: 50px; 
-}
-.ParallaxVideo video{ 
-  min-width: 100%;
-  position: fixed;
-  top:0;
-  z-index: -100;
-}
-.ParallaxVideo h1 {
-color: #fff;
-font-size: 76px;
-font-weight: 700;
-text-align: center;
-text-transform: uppercase;
-}
-
 .parallax-container {
   height: 350px;
 }
