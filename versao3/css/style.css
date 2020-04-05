@@ -6,19 +6,55 @@
  * Made By MaterializeCSS.com
  */
  
- @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap&family=Prompt:wght@600&display=swap&family=Prompt:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap&family=Share+Tech&display=swap');
 
- .divider {
+
+.section{
+  padding-top: 25px;
+}
+
+#sobre{
+  padding-top: 65px;
+}
+
+nav ul li:hover {
+  background-color: #f36958;
+} 
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+.divider {
   height: 3px;
- }
+}
 
 h1{
-  font-family: Prompt !important;
-}
-h2,h3{
-  font-family: Roboto;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 900;
 }
 
+h2,h3,h4,h5{
+  font-family: 'Prompt', sans-serif;
+  font-weight: 400;
+}
+
+nav{
+  font-family: 'Prompt', sans-serif;
+  font-weight: 900;
+}
+
+p,nav ul{
+  font-family: Share Tech;
+}
 .icon-block {
   padding: 0 15px;
 }
@@ -27,7 +63,7 @@ h2,h3{
 }
 
 pre{
-      padding: 16px 20px 0px;
+    padding: 16px 20px 0px;
     background: #eee;
     border: 1px solid #ddd;
     border-radius: 4px;
