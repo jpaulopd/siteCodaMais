@@ -8,6 +8,9 @@
  
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap&family=Share+Tech&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
 
 .section{
   padding-top: 25px;
