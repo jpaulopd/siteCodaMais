@@ -8,6 +8,10 @@
  
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap&family=Share+Tech&display=swap');
 
+.carousel-item img{
+  width: 450px !important;
+}
+
 html {
   scroll-behavior: smooth;
 }
